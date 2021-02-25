@@ -35,28 +35,28 @@ Les technologies utilisées sont :
 
 ### Onglet d'accueil
 
-![accueil](assets/accueil.png)
+![accueil](accueil.png)
 
 ### Formulaire d'inscription
 
-![form](assets/form.png)
+![form](form.png)
 
 ### Onglet Recherche
 >Cet onglet permet de rechercher les jeux sur IGDB, éditer leurs données et les ajouter à la database locale.
 
-![research](assets/research.png)
+![research](research.png)
 
 ### Onglet Database
 >Cet onglet permet d'afficher les jeux présents sur le database SQL et de voter. 
 >(WIP : Il devra aussi permettre de les ajouter à une sélection. )
 
-![database](assets/database.png)
-![database2](assets/database2.png)
+![database](database.png)
+![database2](database2.png)
 
 ### Onglet Sélection (Work In Progress)
 >Cet onglet permettra d'afficher les jeux faisant partie d'une sélection, de modifier cette sélection, d'ajouter des commentaires et de générer un fichier Excel contenant toutes les infos des jeux sélectionnés à envoyer au département communication.
 
-![selection](assets/selection.png)
+![selection](selection.png)
 
 ### A finir
 
@@ -74,32 +74,6 @@ Les technologies utilisées sont :
 * **Vincent De Gheyndt** : Project Manager - Back-end de l'onglet Recherche, requête Axios à l'API d'IGDB, traduction française des donnés et rédaction du Readme.
 * **Lorenzo Menozzi** : Front-end des onglets Database et Sélection.
 * **Jean-David Wuilquot** : Front-end du formulaire d'inscription.
-
-# Comment installer le projet
-
-Installer mysql : https://openclassrooms.com/en/courses/1959476-administrez-vos-bases-de-donnees-avec-mysql/1959969-installez-mysql
-
-Ensuite, à la racine du projet, faire un `npm install` pour installer toutes les dépendances nécessaires comme par exemple Express.
-
-Si vous ne l'avez pas, installez Nodemon : `npm install -g nodemon`
-
-Pour terminer, installez le package **i18n-iso-countries** dans votre dossier react : `npm install i18n-iso-countries`.
-
-Ce package permet d'afficher le nom du pays du développeur (IGDB ne renvoie qu'un id)
-
-
-# Comment lancer le projet
-
-## Marche à suivre :
-
-<ol>
-  <li>Dans le dossier <b>backend</b> via votre terminal, <i><b>node migrate.js</b></i> pour créer la db.
-  <li>Toujours dans le même dossier, <i><b>node migrate.js</b></i> puis <i><b>npm run migrate</b></i>
-  <li>Lancez votre backend via votre terminal depuis le dossier <b>backend</b> avec la commande <i><b>npm start</b></i>. Il tourne sur localhost 8000 mais vous ne devez pas l'ouvrir dans votre browser.
-  <li>Enfin, lancez votre front-end depuis le dossier <b>react</b> via <u>une autre instance de votre terminal</u> avec la commande <i><b>npm start</b></i>. Il tourne sur localhost 3000. Faites bien attention de ne pas couper votre serveur backend par accident. Les deux doivent tourner !
-  <li>Pour pouvoir utiliser l'application, vous devez obligatoirement créer un profil dans l'onglet connexion/inscription.
-  <li> En cas de problème, contactez Corentin Deblock ^^
-</ol>
 
 
 ## Résumé des commandes à connaitre:
